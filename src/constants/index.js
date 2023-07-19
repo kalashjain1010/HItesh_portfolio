@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Java developer",
+    title: "Python developer",
     icon: creator,
   },
 ];
@@ -117,16 +117,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer Intern",
-    company_name: "NGTS",
+    title: "Data Science Training & Intern",
+    company_name: "Ineoron.AI",
     icon: starbucks,
     iconBg: "#FFFF",
-    date: "April 2023 - NOW",
+    date: "May 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learned and worked on advanced Python and SQL queries.",
+      "Developed end-to-end Scalable Machine learning and Deep learning projects for real-world business use cases.",
+      "Participated and worked on various computer vision and NLP projects during the training program.",
+      "Technologies used: Python, Keras, Tensorflow, Hugging face, YOLO, MLops using AWS and GitHub actions.",
     ],
   },
   {
@@ -199,41 +199,41 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Reddit Clone",
+    name: "AccommodationHub",
     description:
-      "The main features of a Reddit clone include user-generated content, voting on content, commenting, and subreddits (topic-specific communities).",
+      "Developed a fully functional Airbnb clone, a web application that allows users to search, book, and list accommodations.Utilized NextAuth for authentication and authorization.Implemented server-side rendering (SSR) and static site generation (SSG) for improved performance",
     tags: [
       {
         name: "NextJs",
         color: "blue-text-gradient",
       },
       {
-        name: "Chakra-ui",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "Firebase",
+        name: "Prisma",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/kalashjain1010/Redit",
+    source_code_link: "https://github.com/hiteshwadhwani/AccommodationHub",
   },
   {
-    name: "Portfolio",
+    name: "Soundify: Music Streaming Platform",
     description:
-      "This portfolio is the best example where you can see my work on 3d images and creating a web application that can even respond to emails with just using emailjs",
+      "Developed Soundify, a music streaming platform that allows users to discover and listen to their favorite songs.Utilized Stripe for secure and seamless payment processing Implemented audio streaming functionality.",
     tags: [
       {
-        name: "react",
+        name: "NextJs",
         color: "blue-text-gradient",
       },
       {
-        name: "ThreeJs",
+        name: "SupaBase",
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind css",
+        name: "Stripe",
         color: "pink-text-gradient",
       },
     ],
