@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Python developer",
+    title: "Java developer",
     icon: creator,
   },
 ];
@@ -119,7 +119,7 @@ const experiences = [
   {
     title: "Data Science Training & Intern",
     company_name: "Ineoron.AI",
-    icon: starbucks,
+    icon: tesla,
     iconBg: "#FFFF",
     date: "May 2022 - Jan 2023",
     points: [
@@ -130,44 +130,44 @@ const experiences = [
     ],
   },
   {
-    title: "Reddit Clone",
-    company_name: "Reddit",
+    title: "Web Developer Intern ",
+    company_name: "Ineoron.AI",
     icon: tesla,
     iconBg: "#FFFF",
-    date: "Dec 2022 - Feb 2023",
+    date: "June 2023 - Jul 2023",
     points: [
       "Developing and maintaining web applications using Next.js , Chakra-ui & redux.",
-      "creating and managing the data at backend using FireBase.",
+      "creating and managing the data at backend using Supabase.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       
     ],
   },
-  {
-    title: "Referal India",
-    company_name: "Refferal India",
-    icon: shopify,
-    iconBg: "#ffff",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack App",
-    company_name: "Crypto Sensex",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Referal India",
+  //   company_name: "Refferal India",
+  //   icon: shopify,
+  //   iconBg: "#ffff",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack App",
+  //   company_name: "Crypto Sensex",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -216,7 +216,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: tripguide,
     source_code_link: "https://github.com/hiteshwadhwani/AccommodationHub",
   },
   {
@@ -238,28 +238,28 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/kalashjain1010/Portfolio-3d",
+    source_code_link: "https://github.com/hiteshwadhwani/Soundify",
   },
   {
-    name: "Word Counter",
+    name: "Phishing Domain Detection",
     description:
-      "This app takes user input in the form of a string and returns the total word count and total charcters.It also has additional features like covert to upperCase and LowerCase",
+      "Predict whether the domains are real or malicious. Trained on multiple machine learning algorithms and able to achieve accuracy > 90 with XGboost Designed and implemented machine-learning pipeline ",
     tags: [
       {
-        name: "Reactjs",
+        name: "Flask",
         color: "blue-text-gradient",
       },
       {
-        name: "TailwindCss",
+        name: "TensorFlow,",
         color: "green-text-gradient",
       },
       {
-        name: "js",
+        name: "Github Actions",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/kalashjain1010/WordCounterUsingReact",
+    image: carrent,
+    source_code_link: "https://github.com/hiteshwadhwani/phishing_domain_detection",
   },
 ];
 

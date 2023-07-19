@@ -35,16 +35,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_lamq8af',
-        'template_5o9d5wm',
+        'service_wenfwdr',
+        'template_8cveafl',
         {
           from_name: form.name,
-          to_name: "Kalash Jain",
+          to_name: "Hitesh Wadwani",
           from_email: form.email,
-          to_email: "kalashjain54@gmail.com",
+          to_email: "hiteshwadhwani1403@gmail.com",
           message: form.message,
         },
-        'rww7YYWd1MUNjSXqv'
+        'ubD_sDO1aCRaFcBBU'
       )
       .then(
         () => {
